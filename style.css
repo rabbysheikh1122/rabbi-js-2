@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-header,#mainSection{
+    max-width:1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+#header-text{
+    color: blue;
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+#cardSection{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#card{
+    border: 2px solid blue;
+    width: 270px;
+    height: 90px ;
+    border-radius: 10px;
+}
+#card-head{
+    font-size: 1.2em;
+    padding-left:10px ;
+}
+#total,#interview,#rejected{
+    margin-left: 20px;
+    font-size: 2em;
+}
+#btn-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#button-text{
+    margin-top: 30px;
+    font-size: 2em;
+    color:blue;
+}
+#job{
+    font-size: 1.2em;
+}
+#main-btn{
+    gap: 30px;
+}
+#btn-all,#btn-interview,#btn-rejected{
+    margin: 20px 5px;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+/* #btn-all{
+    background-color: blue;
+    color: white;
+} */
+
+#sectoin-1{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 25px 20px;
+    
+}
+#big-card{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#section-head{
+    font-size: 1.4em;
+    margin-bottom: 4px;
+}
+h5{
+    font-size: 14px;
+    margin: 5px 0;
+    color: gray;
+}
+p{
+    font-size: 15px;
+    margin: 15px 0;
+}
+#section-btn-1{
+    padding: 6px 11px;
+    font-size: 15px;
+    color: green;
+    border: 2px solid green;
+}
+#section-btn-2{
+    margin: 0px 10px;
+    padding: 6px 11px;
+    font-size: 15px;
+    color: red;
+    border: 2px solid red;
+}
