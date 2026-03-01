@@ -60,10 +60,6 @@
     border-radius: 5px;
     border: none;
 }
-/* #btn-all{
-    background-color: blue;
-    color: white;
-} */
 
 #sectoin-1{
     margin-top: 20px;
@@ -74,7 +70,7 @@
 #big-card{
     display: flex;
     /* align-items: center; */
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 #section-head{
     font-size: 1.4em;
@@ -89,13 +85,13 @@
     font-size: 15px;
     margin: 15px 0;
 }
-#section-btn-1{
+#section-btn1{
     padding: 6px 11px;
     font-size: 15px;
     color: green;
     border: 2px solid green;
 }
-#section-btn-2{
+#section-btn2{
     margin: 0px 10px;
     padding: 6px 11px;
     font-size: 15px;
